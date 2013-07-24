@@ -26,11 +26,11 @@
     
     [lvc setWebViewController:wvc];
     
-    
+    WeatherViewController *vc = [[WeatherViewController alloc] init];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
-    NSArray *viewControllers = [NSArray arrayWithObjects:masterNav, tvc, nil];
+    NSArray *viewControllers = [NSArray arrayWithObjects:masterNav, vc, nil];
     [tabBarController setViewControllers:viewControllers];
 
     
