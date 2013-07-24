@@ -10,6 +10,7 @@
 #import "ListViewViewController.h"
 #import "WebViewController.h"
 #import "SBACCFeedStore.h"
+#import "WeatherViewController.h"
 
 @implementation SBACCAppDelegate
 
@@ -24,6 +25,14 @@
     WebViewController *wvc = [[WebViewController alloc] init];
     
     [lvc setWebViewController:wvc];
+    
+    
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    NSArray *viewControllers = [NSArray arrayWithObjects:masterNav, tvc, nil];
+    [tabBarController setViewControllers:viewControllers];
+
     
     [[self window] setRootViewController:masterNav];
     
