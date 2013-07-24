@@ -18,7 +18,8 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        UITabBarItem *tbi = [self tabBarItem];
+        [tbi setTitle:@"Weather"];
     }
     return self;
 }
