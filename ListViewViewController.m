@@ -22,9 +22,7 @@
 {
     self = [super initWithStyle:style];
     if (self) {        
-//        UIBarButtonItem *god =[[UIBarButtonItem alloc] init];        
-//        [[self navigationItem] setRightBarButtonItem:god];
-//        self.title = NSLocalizedString(@"Gallery", @"Gallery");
+
         UISegmentedControl *rssTypeControl = [[UISegmentedControl alloc] initWithItems:[NSArray arrayWithObjects:@"SBACC", @"Song", nil]];
         [rssTypeControl setSelectedSegmentIndex:0];
         [rssTypeControl setSegmentedControlStyle:UISegmentedControlStyleBar];
