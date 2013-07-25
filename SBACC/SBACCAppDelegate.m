@@ -21,6 +21,7 @@
     ListViewViewController *lvc = [[ListViewViewController alloc] initWithStyle:UITableViewStylePlain];
     
     UINavigationController *masterNav = [[UINavigationController alloc] initWithRootViewController:lvc];
+    [masterNav setTitle:@"News"];
     
     WebViewController *wvc = [[WebViewController alloc] init];
     
@@ -28,13 +29,14 @@
     
     WeatherViewController *vc = [[WeatherViewController alloc] init];
     
+    
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
     NSArray *viewControllers = [NSArray arrayWithObjects:masterNav, vc, nil];
     [tabBarController setViewControllers:viewControllers];
 
     
-    [[self window] setRootViewController:masterNav];
+    [[self window] setRootViewController:tabBarController];
     
     
     self.window.backgroundColor = [UIColor whiteColor];

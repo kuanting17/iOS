@@ -20,6 +20,7 @@
 		4A132F2B171D0ABE0042EF32 /* RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A132F2A171D0ABE0042EF32 /* RSSChannel.m */; };
 		4A132F2E171D209D0042EF32 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A132F2D171D209D0042EF32 /* RSSItem.m */; };
 		4A132F31171D28B30042EF32 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A132F30171D28B20042EF32 /* WebViewController.m */; };
+		4A255F25179F9DDF00A04D5C /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A255F24179F9DDF00A04D5C /* WeatherViewController.m */; };
 		4A3C2ECC177F820F002B9224 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C2ECB177F820E002B9224 /* 57.png */; };
 		4A3C2ECE177F821A002B9224 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C2ECD177F821A002B9224 /* 114.png */; };
 		4A3C2ED0177FC6AB002B9224 /* Top song.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C2ECF177FC6AB002B9224 /* Top song.png */; };
@@ -53,6 +54,8 @@
 		4A132F2D171D209D0042EF32 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
 		4A132F2F171D28B20042EF32 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		4A132F30171D28B20042EF32 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		4A255F23179F9DDF00A04D5C /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		4A255F24179F9DDF00A04D5C /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
 		4A3C2ECB177F820E002B9224 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
 		4A3C2ECD177F821A002B9224 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
 		4A3C2ECF177FC6AB002B9224 /* Top song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Top song.png"; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 		4A132EFD171CDBE50042EF32 = {
 			isa = PBXGroup;
 			children = (
+				4A255F23179F9DDF00A04D5C /* WeatherViewController.h */,
+				4A255F24179F9DDF00A04D5C /* WeatherViewController.m */,
 				4A3C2ED5177FC6FA002B9224 /* relax time.png */,
 				4A3C2ED3177FC6EA002B9224 /* news content.png */,
 				4A3C2ED1177FC6B9002B9224 /* update news.png */,
@@ -233,6 +238,7 @@
 				4A132F31171D28B30042EF32 /* WebViewController.m in Sources */,
 				4A995E7417406FFC00753E32 /* SBACCFeedStore.m in Sources */,
 				4A995E77174093CB00753E32 /* SBACCConnection.m in Sources */,
+				4A255F25179F9DDF00A04D5C /* WeatherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

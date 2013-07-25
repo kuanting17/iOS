@@ -21,9 +21,8 @@
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
-    if (self) {        
-
-        UISegmentedControl *rssTypeControl = [[UISegmentedControl alloc] initWithItems:[NSArray arrayWithObjects:@"SBACC", @"Song", nil]];
+    if (self) {
+    UISegmentedControl *rssTypeControl = [[UISegmentedControl alloc] initWithItems:[NSArray arrayWithObjects:@"SBACC", @"Song", nil]];
         [rssTypeControl setSelectedSegmentIndex:0];
         [rssTypeControl setSegmentedControlStyle:UISegmentedControlStyleBar];
         [rssTypeControl addTarget:self action:@selector(changeType:) forControlEvents:UIControlEventValueChanged];

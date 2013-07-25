@@ -12,15 +12,6 @@
 
 @implementation SBACCFeedStore
 
-//- (void)setTopSongsCacheDate:(NSDate *)topSongsCacheDate
-//{
-//    [[NSUserDefaults standardUserDefaults] setObject:topSongsCacheDate forKey:@"topSongsCacheDate"];
-//}
-//
-//- (NSDate *)topSongsCacheDate
-//{
-//    return [[NSUserDefaults standardUserDefaults] objectForKey:@"topSongsCacheDate"];
-//}
 
 + (SBACCFeedStore *)sharedStore
 {
@@ -45,21 +36,13 @@
 - (void)fetchTopSong:(int)count
       withCompletion:(void (^)(RSSChannel *obj, NSError *err))block
 {
-//    NSString *cachePath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-//    cachePath = [cachePath stringByAppendingPathComponent:@"song.archive"];
+
     NSURL *url = [NSURL URLWithString:@"https://itunes.apple.com/us/rss/topsongs/limit=10/genre=22/json"];
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
     RSSChannel *channel = [[RSSChannel alloc] init];
     SBACCConnection *connection = [[SBACCConnection alloc] initWithRequest:req];
     [connection setCompletionBlock:block];
-//    [connection setCompletionBlock:^(RSSChannel *obj, NSError *err)  {
-//        if (!err) {
-//            [self setTopSongsCacheDate:[NSDate date]];
-//            [NSKeyedArchiver archiveRootObject:obj toFile:cachePath];
-//        }
-//        
-//        block(obj, err);
-//    }];
+
     [connection setJsonRootObject:channel];
     
     [connection start];
