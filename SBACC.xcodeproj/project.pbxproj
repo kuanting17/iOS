@@ -21,6 +21,8 @@
 		4A132F2E171D209D0042EF32 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A132F2D171D209D0042EF32 /* RSSItem.m */; };
 		4A132F31171D28B30042EF32 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A132F30171D28B20042EF32 /* WebViewController.m */; };
 		4A255F25179F9DDF00A04D5C /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A255F24179F9DDF00A04D5C /* WeatherViewController.m */; };
+		4A255F3117A4414B00A04D5C /* weatherItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A255F3017A4414B00A04D5C /* weatherItem.m */; };
+		4A255F3317A4526700A04D5C /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A255F3217A4526600A04D5C /* WeatherViewController.xib */; };
 		4A3C2ECC177F820F002B9224 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C2ECB177F820E002B9224 /* 57.png */; };
 		4A3C2ECE177F821A002B9224 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C2ECD177F821A002B9224 /* 114.png */; };
 		4A3C2ED0177FC6AB002B9224 /* Top song.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C2ECF177FC6AB002B9224 /* Top song.png */; };
@@ -56,6 +58,9 @@
 		4A132F30171D28B20042EF32 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		4A255F23179F9DDF00A04D5C /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
 		4A255F24179F9DDF00A04D5C /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		4A255F2F17A4414A00A04D5C /* weatherItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherItem.h; sourceTree = "<group>"; };
+		4A255F3017A4414B00A04D5C /* weatherItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherItem.m; sourceTree = "<group>"; };
+		4A255F3217A4526600A04D5C /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
 		4A3C2ECB177F820E002B9224 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57.png; path = ../57.png; sourceTree = "<group>"; };
 		4A3C2ECD177F821A002B9224 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114.png; path = ../114.png; sourceTree = "<group>"; };
 		4A3C2ECF177FC6AB002B9224 /* Top song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top song.png"; path = "../Top song.png"; sourceTree = "<group>"; };
@@ -89,6 +94,9 @@
 			children = (
 				4A255F23179F9DDF00A04D5C /* WeatherViewController.h */,
 				4A255F24179F9DDF00A04D5C /* WeatherViewController.m */,
+				4A255F2F17A4414A00A04D5C /* weatherItem.h */,
+				4A255F3017A4414B00A04D5C /* weatherItem.m */,
+				4A255F3217A4526600A04D5C /* WeatherViewController.xib */,
 				4A132F26171CDC1E0042EF32 /* ListViewViewController.h */,
 				4A132F27171CDC1E0042EF32 /* ListViewViewController.m */,
 				4A995E7217406FFB00753E32 /* SBACCFeedStore.h */,
@@ -220,6 +228,7 @@
 				4A3C2ED2177FC6B9002B9224 /* update news.png in Resources */,
 				4A3C2ED4177FC6EA002B9224 /* news content.png in Resources */,
 				4A3C2ED6177FC6FA002B9224 /* relax time.png in Resources */,
+				4A255F3317A4526700A04D5C /* WeatherViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +248,7 @@
 				4A995E7417406FFC00753E32 /* SBACCFeedStore.m in Sources */,
 				4A995E77174093CB00753E32 /* SBACCConnection.m in Sources */,
 				4A255F25179F9DDF00A04D5C /* WeatherViewController.m in Sources */,
+				4A255F3117A4414B00A04D5C /* weatherItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

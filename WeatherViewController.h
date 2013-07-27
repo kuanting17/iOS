@@ -8,13 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@class RSSChannel;
+@class weatherItem;
 
-@interface WeatherViewController : UITableViewController
+@interface WeatherViewController : UIViewController
 {
-    RSSChannel *channel;
+    __weak IBOutlet UITextField *cityText;
+    __weak IBOutlet UITextField *temperatureText;
+    __weak IBOutlet UITextField *conditionText;
+    __weak IBOutlet UIImageView *weatherView;
+    
+    weatherItem *list;
 }
 -(void)fetchEntries;
+
+//@property (nonatomic, strong)weatherItem *list;
 
 
 @end
