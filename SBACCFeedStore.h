@@ -18,5 +18,6 @@
       withCompletion:(void (^)(RSSChannel *obj, NSError *err))block;
 
 - (void)fetchRSSFeedWithCompletion:(void (^)(RSSChannel *obj, NSError *err)) block;
+- (void)fetchWeatherWithCompletion:(void (^)(RSSChannel *obj, NSError *err)) block;
 
 @end
