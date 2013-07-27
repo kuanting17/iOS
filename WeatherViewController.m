@@ -12,6 +12,10 @@
 
 @end
 
+#import "RSSChannel.h"
+#import "RSSItem.h"
+#import "SBACCFeedStore.h"
+
 @implementation WeatherViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -24,40 +28,64 @@
     return self;
 }
 
-- (void)viewDidLoad
+-(void)changeType:(id)sender
 {
-    [super viewDidLoad];
-
+//    rssType = [sender selectedSegmentIndex];
+    [self fetchEntries];
 }
 
-- (void)didReceiveMemoryWarning
+//- (void)tableView:(UITableView *)tableView
+//didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    [[self navigationController] pushViewController:webViewController animated:YES];
+//    
+//    RSSItem *entry = [[channel items] objectAtIndex:[indexPath row]];
+//    
+//    NSURL *url = [NSURL URLWithString:[entry link]];
+//    
+//    
+//    NSURLRequest *req = [NSURLRequest requestWithURL:url];
+//    
+//    
+//    [[webViewController webView] loadRequest:req];
+//    
+//    
+//    [[webViewController navigationItem] setTitle:[entry title]];
+//}
+
+
+- (NSInteger)tableView:(UITableView *)tableView
+ numberOfRowsInSection:(NSInteger)section
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return [[channel items] count];
 }
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 0;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    // Configure the cell...
+    UITableViewCell *cell = [tableView
+                             dequeueReusableCellWithIdentifier:@"UITableViewCell"];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                      reuseIdentifier:@"UITableViewCell"];
+    }
+    RSSItem *item = [[channel items] objectAtIndex:[indexPath row]];
+    [[cell textLabel] setText:[item title]];
     
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)fetchEntries
 {
- }
+    [[SBACCFeedStore sharedStore] fetchRSSFeedWithCompletion: ^(RSSChannel *obj, NSError *err){
+        if(!err){
+            channel =obj;
+            [[self tableView] reloadData];
+        }else{
+            UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"Error" message:[err localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [av show];
+        }
+    }];
+}
 
 @end

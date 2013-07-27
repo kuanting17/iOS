@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class RSSChannel;
+
 @interface WeatherViewController : UITableViewController
 {
     RSSChannel *channel;
 }
+-(void)fetchEntries;
 
 
 @end
