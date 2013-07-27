@@ -13,7 +13,6 @@
 
 -(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict
 {
-//    NSLog(@"\t\t%@ found a %@ element", self, elementName);
     if ([elementName isEqual:@"title"]) {
         currentString = [[NSMutableString alloc] init];
         [self setTitle:currentString];
