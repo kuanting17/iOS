@@ -32,6 +32,7 @@
 		4A62B2B41775309D00DB0A3B /* SBACC.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A62B2B31775309D00DB0A3B /* SBACC.png */; };
 		4A995E7417406FFC00753E32 /* SBACCFeedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A995E7317406FFC00753E32 /* SBACCFeedStore.m */; };
 		4A995E77174093CB00753E32 /* SBACCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A995E76174093CB00753E32 /* SBACCConnection.m */; };
+		4AFDF12817B7501B001CD47D /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AFDF12717B7501B001CD47D /* weather.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		4A995E75174093CB00753E32 /* SBACCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBACCConnection.h; sourceTree = "<group>"; };
 		4A995E76174093CB00753E32 /* SBACCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBACCConnection.m; sourceTree = "<group>"; };
 		4ABAE887175DA4DE000B0055 /* JSONSerializable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONSerializable.h; sourceTree = "<group>"; };
+		4AFDF12717B7501B001CD47D /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weather.png; path = ../../../../../Downloads/weather.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				4A132F12171CDBE50042EF32 /* InfoPlist.strings */,
 				4A132F15171CDBE50042EF32 /* main.m */,
 				4A132F17171CDBE50042EF32 /* SBACC-Prefix.pch */,
+				4AFDF12717B7501B001CD47D /* weather.png */,
 				4A132F1B171CDBE50042EF32 /* Default.png */,
 				4A132F1D171CDBE50042EF32 /* Default@2x.png */,
 				4A132F1F171CDBE50042EF32 /* Default-568h@2x.png */,
@@ -229,6 +232,7 @@
 				4A3C2ED4177FC6EA002B9224 /* news content.png in Resources */,
 				4A3C2ED6177FC6FA002B9224 /* relax time.png in Resources */,
 				4A255F3317A4526700A04D5C /* WeatherViewController.xib in Resources */,
+				4AFDF12817B7501B001CD47D /* weather.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

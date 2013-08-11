@@ -33,6 +33,8 @@
     if (self) {
         UITabBarItem *tbi = [self tabBarItem];
         [tbi setTitle:@"Weather"];
+        UIImage *i = [UIImage imageNamed:@"Weather.png"];
+        [tbi setImage:i];
 
 //        UINavigationItem *n = [self navigationItem];
 //        [n setTitle:@"roundApp"];
