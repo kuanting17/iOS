@@ -172,10 +172,15 @@
     
 }
 
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField{
+    
+    return NO;
+}
+
 //- (BOOL)textFieldShouldReturn:(UITextField *)textField
 //{
 //    [textField resignFirstResponder];
-//    return YES;
+//    return NO;
 //}
 
 - (void)didReceiveMemoryWarning
