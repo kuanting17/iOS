@@ -32,7 +32,6 @@
 		4A62B2B41775309D00DB0A3B /* SBACC.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A62B2B31775309D00DB0A3B /* SBACC.png */; };
 		4A995E7417406FFC00753E32 /* SBACCFeedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A995E7317406FFC00753E32 /* SBACCFeedStore.m */; };
 		4A995E77174093CB00753E32 /* SBACCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A995E76174093CB00753E32 /* SBACCConnection.m */; };
-		4AFDF12817B7501B001CD47D /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AFDF12717B7501B001CD47D /* weather.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,32 +48,31 @@
 		4A132F1B171CDBE50042EF32 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4A132F1D171CDBE50042EF32 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4A132F1F171CDBE50042EF32 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4A132F26171CDC1E0042EF32 /* ListViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewViewController.h; sourceTree = "<group>"; };
-		4A132F27171CDC1E0042EF32 /* ListViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewViewController.m; sourceTree = "<group>"; };
-		4A132F29171D0ABE0042EF32 /* RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannel.h; sourceTree = "<group>"; };
-		4A132F2A171D0ABE0042EF32 /* RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannel.m; sourceTree = "<group>"; };
-		4A132F2C171D209D0042EF32 /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
-		4A132F2D171D209D0042EF32 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
-		4A132F2F171D28B20042EF32 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		4A132F30171D28B20042EF32 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		4A255F23179F9DDF00A04D5C /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
-		4A255F24179F9DDF00A04D5C /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
-		4A255F2F17A4414A00A04D5C /* weatherItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherItem.h; sourceTree = "<group>"; };
-		4A255F3017A4414B00A04D5C /* weatherItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherItem.m; sourceTree = "<group>"; };
-		4A255F3217A4526600A04D5C /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
-		4A3C2ECB177F820E002B9224 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57.png; path = ../57.png; sourceTree = "<group>"; };
-		4A3C2ECD177F821A002B9224 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114.png; path = ../114.png; sourceTree = "<group>"; };
-		4A3C2ECF177FC6AB002B9224 /* Top song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top song.png"; path = "../Top song.png"; sourceTree = "<group>"; };
-		4A3C2ED1177FC6B9002B9224 /* update news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "update news.png"; path = "../update news.png"; sourceTree = "<group>"; };
-		4A3C2ED3177FC6EA002B9224 /* news content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "news content.png"; path = "../news content.png"; sourceTree = "<group>"; };
-		4A3C2ED5177FC6FA002B9224 /* relax time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "relax time.png"; path = "../relax time.png"; sourceTree = "<group>"; };
+		4A132F26171CDC1E0042EF32 /* ListViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewViewController.h; path = ../ListViewViewController.h; sourceTree = "<group>"; };
+		4A132F27171CDC1E0042EF32 /* ListViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewViewController.m; path = ../ListViewViewController.m; sourceTree = "<group>"; };
+		4A132F29171D0ABE0042EF32 /* RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSChannel.h; path = ../RSSChannel.h; sourceTree = "<group>"; };
+		4A132F2A171D0ABE0042EF32 /* RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSChannel.m; path = ../RSSChannel.m; sourceTree = "<group>"; };
+		4A132F2C171D209D0042EF32 /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSItem.h; path = ../RSSItem.h; sourceTree = "<group>"; };
+		4A132F2D171D209D0042EF32 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSItem.m; path = ../RSSItem.m; sourceTree = "<group>"; };
+		4A132F2F171D28B20042EF32 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ../WebViewController.h; sourceTree = "<group>"; };
+		4A132F30171D28B20042EF32 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = ../WebViewController.m; sourceTree = "<group>"; };
+		4A255F23179F9DDF00A04D5C /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherViewController.h; path = ../WeatherViewController.h; sourceTree = "<group>"; };
+		4A255F24179F9DDF00A04D5C /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherViewController.m; path = ../WeatherViewController.m; sourceTree = "<group>"; };
+		4A255F2F17A4414A00A04D5C /* weatherItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = weatherItem.h; path = ../weatherItem.h; sourceTree = "<group>"; };
+		4A255F3017A4414B00A04D5C /* weatherItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = weatherItem.m; path = ../weatherItem.m; sourceTree = "<group>"; };
+		4A255F3217A4526600A04D5C /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WeatherViewController.xib; path = ../WeatherViewController.xib; sourceTree = "<group>"; };
+		4A3C2ECB177F820E002B9224 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57.png; path = "..//supportingFiles/57.png"; sourceTree = "<group>"; };
+		4A3C2ECD177F821A002B9224 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114.png; path = "..//supportingFiles/114.png"; sourceTree = "<group>"; };
+		4A3C2ECF177FC6AB002B9224 /* Top song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top song.png"; path = "../supportingFiles/Top song.png"; sourceTree = "<group>"; };
+		4A3C2ED1177FC6B9002B9224 /* update news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "update news.png"; path = "../supportingFiles/update news.png"; sourceTree = "<group>"; };
+		4A3C2ED3177FC6EA002B9224 /* news content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "news content.png"; path = "../supportingFiles/news content.png"; sourceTree = "<group>"; };
+		4A3C2ED5177FC6FA002B9224 /* relax time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "relax time.png"; path = "../supportingFiles/relax time.png"; sourceTree = "<group>"; };
 		4A62B2B31775309D00DB0A3B /* SBACC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SBACC.png; sourceTree = SOURCE_ROOT; };
-		4A995E7217406FFB00753E32 /* SBACCFeedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBACCFeedStore.h; sourceTree = "<group>"; };
-		4A995E7317406FFC00753E32 /* SBACCFeedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBACCFeedStore.m; sourceTree = "<group>"; };
-		4A995E75174093CB00753E32 /* SBACCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBACCConnection.h; sourceTree = "<group>"; };
-		4A995E76174093CB00753E32 /* SBACCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBACCConnection.m; sourceTree = "<group>"; };
-		4ABAE887175DA4DE000B0055 /* JSONSerializable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONSerializable.h; sourceTree = "<group>"; };
-		4AFDF12717B7501B001CD47D /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weather.png; path = ../../../../../Downloads/weather.png; sourceTree = "<group>"; };
+		4A995E7217406FFB00753E32 /* SBACCFeedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBACCFeedStore.h; sourceTree = SOURCE_ROOT; };
+		4A995E7317406FFC00753E32 /* SBACCFeedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBACCFeedStore.m; sourceTree = SOURCE_ROOT; };
+		4A995E75174093CB00753E32 /* SBACCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBACCConnection.h; sourceTree = SOURCE_ROOT; };
+		4A995E76174093CB00753E32 /* SBACCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBACCConnection.m; sourceTree = SOURCE_ROOT; };
+		4ABAE887175DA4DE000B0055 /* JSONSerializable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONSerializable.h; path = ../JSONSerializable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,24 +92,6 @@
 		4A132EFD171CDBE50042EF32 = {
 			isa = PBXGroup;
 			children = (
-				4A255F23179F9DDF00A04D5C /* WeatherViewController.h */,
-				4A255F24179F9DDF00A04D5C /* WeatherViewController.m */,
-				4A255F2F17A4414A00A04D5C /* weatherItem.h */,
-				4A255F3017A4414B00A04D5C /* weatherItem.m */,
-				4A255F3217A4526600A04D5C /* WeatherViewController.xib */,
-				4A132F26171CDC1E0042EF32 /* ListViewViewController.h */,
-				4A132F27171CDC1E0042EF32 /* ListViewViewController.m */,
-				4A995E7217406FFB00753E32 /* SBACCFeedStore.h */,
-				4A995E7317406FFC00753E32 /* SBACCFeedStore.m */,
-				4ABAE887175DA4DE000B0055 /* JSONSerializable.h */,
-				4A995E75174093CB00753E32 /* SBACCConnection.h */,
-				4A995E76174093CB00753E32 /* SBACCConnection.m */,
-				4A132F2F171D28B20042EF32 /* WebViewController.h */,
-				4A132F30171D28B20042EF32 /* WebViewController.m */,
-				4A132F2C171D209D0042EF32 /* RSSItem.h */,
-				4A132F2D171D209D0042EF32 /* RSSItem.m */,
-				4A132F29171D0ABE0042EF32 /* RSSChannel.h */,
-				4A132F2A171D0ABE0042EF32 /* RSSChannel.m */,
 				4A132F0F171CDBE50042EF32 /* SBACC */,
 				4A132F08171CDBE50042EF32 /* Frameworks */,
 				4A132F07171CDBE50042EF32 /* Products */,
@@ -139,14 +119,33 @@
 		4A132F0F171CDBE50042EF32 /* SBACC */ = {
 			isa = PBXGroup;
 			children = (
+				4A255F23179F9DDF00A04D5C /* WeatherViewController.h */,
+				4A255F24179F9DDF00A04D5C /* WeatherViewController.m */,
+				4A255F2F17A4414A00A04D5C /* weatherItem.h */,
+				4A255F3017A4414B00A04D5C /* weatherItem.m */,
+				4A255F3217A4526600A04D5C /* WeatherViewController.xib */,
+				4A132F26171CDC1E0042EF32 /* ListViewViewController.h */,
+				4A132F27171CDC1E0042EF32 /* ListViewViewController.m */,
+				4A995E7217406FFB00753E32 /* SBACCFeedStore.h */,
+				4A995E7317406FFC00753E32 /* SBACCFeedStore.m */,
+				4ABAE887175DA4DE000B0055 /* JSONSerializable.h */,
+				4A995E75174093CB00753E32 /* SBACCConnection.h */,
+				4A995E76174093CB00753E32 /* SBACCConnection.m */,
+				4A132F2F171D28B20042EF32 /* WebViewController.h */,
+				4A132F30171D28B20042EF32 /* WebViewController.m */,
+				4A132F2C171D209D0042EF32 /* RSSItem.h */,
+				4A132F2D171D209D0042EF32 /* RSSItem.m */,
+				4A132F29171D0ABE0042EF32 /* RSSChannel.h */,
+				4A132F2A171D0ABE0042EF32 /* RSSChannel.m */,
 				4A132F18171CDBE50042EF32 /* SBACCAppDelegate.h */,
 				4A132F19171CDBE50042EF32 /* SBACCAppDelegate.m */,
-				4A132F10171CDBE50042EF32 /* Supporting Files */,
+				4A132F15171CDBE50042EF32 /* main.m */,
+				4A132F10171CDBE50042EF32 /* SupportingFiles */,
 			);
 			path = SBACC;
 			sourceTree = "<group>";
 		};
-		4A132F10171CDBE50042EF32 /* Supporting Files */ = {
+		4A132F10171CDBE50042EF32 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
 				4A3C2ED5177FC6FA002B9224 /* relax time.png */,
@@ -158,14 +157,12 @@
 				4A62B2B31775309D00DB0A3B /* SBACC.png */,
 				4A132F11171CDBE50042EF32 /* SBACC-Info.plist */,
 				4A132F12171CDBE50042EF32 /* InfoPlist.strings */,
-				4A132F15171CDBE50042EF32 /* main.m */,
 				4A132F17171CDBE50042EF32 /* SBACC-Prefix.pch */,
-				4AFDF12717B7501B001CD47D /* weather.png */,
 				4A132F1B171CDBE50042EF32 /* Default.png */,
 				4A132F1D171CDBE50042EF32 /* Default@2x.png */,
 				4A132F1F171CDBE50042EF32 /* Default-568h@2x.png */,
 			);
-			name = "Supporting Files";
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +229,6 @@
 				4A3C2ED4177FC6EA002B9224 /* news content.png in Resources */,
 				4A3C2ED6177FC6FA002B9224 /* relax time.png in Resources */,
 				4A255F3317A4526700A04D5C /* WeatherViewController.xib in Resources */,
-				4AFDF12817B7501B001CD47D /* weather.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
