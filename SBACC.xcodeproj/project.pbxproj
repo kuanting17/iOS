@@ -29,7 +29,6 @@
 		4A3C2ED2177FC6B9002B9224 /* update news.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C2ED1177FC6B9002B9224 /* update news.png */; };
 		4A3C2ED4177FC6EA002B9224 /* news content.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C2ED3177FC6EA002B9224 /* news content.png */; };
 		4A3C2ED6177FC6FA002B9224 /* relax time.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C2ED5177FC6FA002B9224 /* relax time.png */; };
-		4A62B2B41775309D00DB0A3B /* SBACC.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A62B2B31775309D00DB0A3B /* SBACC.png */; };
 		4A995E7417406FFC00753E32 /* SBACCFeedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A995E7317406FFC00753E32 /* SBACCFeedStore.m */; };
 		4A995E77174093CB00753E32 /* SBACCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A995E76174093CB00753E32 /* SBACCConnection.m */; };
 /* End PBXBuildFile section */
@@ -67,7 +66,6 @@
 		4A3C2ED1177FC6B9002B9224 /* update news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "update news.png"; path = "../supportingFiles/update news.png"; sourceTree = "<group>"; };
 		4A3C2ED3177FC6EA002B9224 /* news content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "news content.png"; path = "../supportingFiles/news content.png"; sourceTree = "<group>"; };
 		4A3C2ED5177FC6FA002B9224 /* relax time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "relax time.png"; path = "../supportingFiles/relax time.png"; sourceTree = "<group>"; };
-		4A62B2B31775309D00DB0A3B /* SBACC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SBACC.png; sourceTree = SOURCE_ROOT; };
 		4A995E7217406FFB00753E32 /* SBACCFeedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBACCFeedStore.h; sourceTree = SOURCE_ROOT; };
 		4A995E7317406FFC00753E32 /* SBACCFeedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBACCFeedStore.m; sourceTree = SOURCE_ROOT; };
 		4A995E75174093CB00753E32 /* SBACCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBACCConnection.h; sourceTree = SOURCE_ROOT; };
@@ -154,7 +152,6 @@
 				4A3C2ECF177FC6AB002B9224 /* Top song.png */,
 				4A3C2ECD177F821A002B9224 /* 114.png */,
 				4A3C2ECB177F820E002B9224 /* 57.png */,
-				4A62B2B31775309D00DB0A3B /* SBACC.png */,
 				4A132F11171CDBE50042EF32 /* SBACC-Info.plist */,
 				4A132F12171CDBE50042EF32 /* InfoPlist.strings */,
 				4A132F17171CDBE50042EF32 /* SBACC-Prefix.pch */,
@@ -221,7 +218,6 @@
 				4A132F1C171CDBE50042EF32 /* Default.png in Resources */,
 				4A132F1E171CDBE50042EF32 /* Default@2x.png in Resources */,
 				4A132F20171CDBE50042EF32 /* Default-568h@2x.png in Resources */,
-				4A62B2B41775309D00DB0A3B /* SBACC.png in Resources */,
 				4A3C2ECC177F820F002B9224 /* 57.png in Resources */,
 				4A3C2ECE177F821A002B9224 /* 114.png in Resources */,
 				4A3C2ED0177FC6AB002B9224 /* Top song.png in Resources */,
