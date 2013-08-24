@@ -21,7 +21,4 @@
 }
 -(void)fetchEntries;
 
-//@property (nonatomic, strong)weatherItem *list;
-
-
 @end

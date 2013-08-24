@@ -18,9 +18,7 @@
     
     CGRect screenFrame = [[UIScreen mainScreen] applicationFrame];
     UIWebView *wv = [[UIWebView alloc] initWithFrame:screenFrame];
-   
     [wv setScalesPageToFit:YES];
-    
     [self setView:wv];
 }
 

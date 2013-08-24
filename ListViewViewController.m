@@ -47,12 +47,9 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
     
     NSURL *url = [NSURL URLWithString:[entry link]];
     
-    
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
     
-    
     [[webViewController webView] loadRequest:req];
-    
     
     [[webViewController navigationItem] setTitle:[entry title]];
 }

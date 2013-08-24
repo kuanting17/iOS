@@ -29,15 +29,12 @@
     
     WeatherViewController *vc = [[WeatherViewController alloc] init];
     
-    
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
     NSArray *viewControllers = [NSArray arrayWithObjects:masterNav, vc, nil];
     [tabBarController setViewControllers:viewControllers];
 
-    
     [[self window] setRootViewController:tabBarController];
-    
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

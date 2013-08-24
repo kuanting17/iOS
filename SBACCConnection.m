@@ -45,25 +45,21 @@ static NSMutableArray *sharedConnectionList = nil;
         NSXMLParser *parser = [[NSXMLParser alloc] initWithData:container];
         [parser setDelegate:[self xmlRootobject]];
         [parser parse];
-        
         rootObject = [self xmlRootobject];
     }else if ([self jsonRootObject]){
         NSDictionary *d = [NSJSONSerialization JSONObjectWithData:container options:0 error:nil];
         [[self jsonRootObject] readFromJSONDictionary:d];
-        
         rootObject = [self jsonRootObject];
     }
     if ([self completionBlock]) 
         [self completionBlock](rootObject, nil);
-    
-    [sharedConnectionList removeObject:self];
+        [sharedConnectionList removeObject:self];
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
     if ([self completionBlock]) 
         [self completionBlock](nil, error);
-    
         [sharedConnectionList removeObject:self];
 }
 

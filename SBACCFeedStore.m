@@ -19,7 +19,6 @@
     if (!feedStore) {
         feedStore = [[SBACCFeedStore alloc]init];
     }
-    
     return feedStore;
 }
 
@@ -36,7 +35,6 @@
 - (void)fetchTopSong:(int)count
       withCompletion:(void (^)(RSSChannel *obj, NSError *err))block
 {
-
     NSURL *url = [NSURL URLWithString:@"https://itunes.apple.com/us/rss/topsongs/limit=10/genre=22/json"];
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
     RSSChannel *channel = [[RSSChannel alloc] init];
